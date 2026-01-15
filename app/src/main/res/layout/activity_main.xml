@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按任意物理按键"
+        android:textSize="20sp"
+        android:textColor="#666666"
+        android:layout_marginBottom="40dp"/>
+
+    <TextView
+        android:id="@+id/keyCodeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KeyCode: --"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/keyNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Key: --"
+        android:textSize="24sp"
+        android:textColor="#333333"/>
+
+</LinearLayout>
